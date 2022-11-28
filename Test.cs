@@ -29,6 +29,7 @@ namespace laba4
             Assert.AreEqual("Рыбы", Znak.Zodiak(20, 2));
         }
         [Test]
+        //тест второго метода при вводе валидных значений
         public void TestGetSingOfZodiakByNumberAndString()
         {
             Assert.AreEqual("Овен", Znak.Zodiak(22, "Март"));
